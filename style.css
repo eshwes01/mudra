@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    padding-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgray;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  img {
+    width : 280px;
+    height: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .menu{
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: #89d784;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  #purchase {
+    font-weight: 150;
+    font-size: 25px;
+    color: green;
+  }
+  
+  #description{
+    padding-right: 10cm;
+    font-size: 17px;
+    color: lightgoldenrodyellow;
+  }
+  
+  header > p {
+    padding-top: 2rem; 
+    text-align: center;
+    font-family: cursive;
+    font-style: oblique;
+  }
+   #sub  > p{
+     padding-top: 3rem; 
+     
+    }
