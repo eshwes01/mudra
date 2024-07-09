@@ -20,11 +20,10 @@ html {
   .menu{
     margin-left: 0.75rem;
     padding: 0.75rem;
-    background-color: #89d784;
-    color: white;
+    color: rgb(91, 8, 8);
     border: none;
-    border-radius: 5px;
-    
+    border-radius: 10px;
+    background : url(Image/Bamboo_hairClip.jpg) center center no-repeat fixed;
   }
   #purchase {
     font-weight: 150;
@@ -44,7 +43,8 @@ html {
     font-family: cursive;
     font-style: oblique;
   }
-   #sub  > p{
+   
+  #sub  > p{
      padding-top: 3rem; 
      
     }
