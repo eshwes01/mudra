@@ -24,6 +24,7 @@ html {
     border: none;
     border-radius: 10px;
     background : url(Image/Bamboo_hairClip.jpg) center center no-repeat fixed;
+    opacity: 0.5;
   }
   #purchase {
     font-weight: 150;
