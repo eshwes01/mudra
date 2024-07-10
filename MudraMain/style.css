@@ -2,6 +2,7 @@ html {
     height: 100%;
     width: 100%;
   }
+
   body{
     padding-left: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -24,8 +25,12 @@ html {
     color: white;
     border: none;
     border-radius: 5px;
-    
   }
+  
+  #home{
+    background :url("../Image/bamboo_purse.jpeg.png");
+  }
+
   #purchase {
     font-weight: 150;
     font-size: 25px;
@@ -47,4 +52,4 @@ html {
    #sub  > p{
      padding-top: 3rem; 
      
-    }
+  }
