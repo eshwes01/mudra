@@ -32,7 +32,8 @@ html {
   }*/
   
   .header-container{
-    background: url(../Image/bamboo_purse.jpeg) top center no-repeat fixed; 
+    background: url(MudraMain/Image/Ratten01.jpg) top center repeat fixed; 
+    background-attachment: fixed;
   }
 
   #purchase {
