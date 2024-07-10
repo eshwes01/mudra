@@ -26,9 +26,13 @@ html {
     border: none;
     border-radius: 5px;
   }
+
+ /* #home{
+    background :url("../Image/bamboo_purse.jpeg");
+  }*/
   
-  #home{
-    background :url("../Image/bamboo_purse.jpeg.png");
+  .header-container{
+    background: url(../Image/bamboo_purse.jpeg) top center no-repeat fixed; 
   }
 
   #purchase {
