@@ -1,11 +1,5 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
 
   body{
-    padding-left: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: lightgray;
   }
   h1 {
@@ -32,14 +26,46 @@ html {
   }*/
   
   .header-container{
-    background: url(MudraMain/Image/Ratten01.jpg) top center repeat fixed; 
-    background-attachment: fixed;
+    background: url("Image/Ratten01.jpg") top center repeat fixed; 
+    position: fixed; 
+    width:100%;
+    height: 20%;
+    margin-inline-start: auto;
+    top: 0%;
+    bottom: 80%;
+  }
+  .footer-container{
+    background: rgb(194, 121, 121) top center fixed; 
+    position: fixed; 
+    width:100%;
+    height: 10%;
+    margin-inline-start: auto;
+    top: 90%;
+    bottom: 0%;
+  }
+
+  #reachOut{
+    font-size: 20px;
+    font-style: italic;
+    order: 2;
+    display: inline-block;
+    width: 100%;
+    height:10px;
+  }
+
+  #subscribe {
+    font-size: inherit;
+    font-style: italic;
+    display: inline-block;
+    width: 100%;
+    height:10px;
   }
 
   #purchase {
     font-weight: 150;
     font-size: 25px;
     color: green;
+  
   }
   
   #description{
@@ -56,5 +82,5 @@ html {
   }
    #sub  > p{
      padding-top: 3rem; 
-     
+     margin-top:20%;
   }
