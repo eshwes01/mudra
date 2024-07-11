@@ -2,11 +2,10 @@ html {
     height: 100%;
     width: 100%;
   }
-  body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   body{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     background-color: lightgray;
-  }
-
+  } 
   #body-part{
     top: 20%;
     bottom:20%;
@@ -29,14 +28,20 @@ html {
     padding-bottom: 10px;
   }
   .menu{
-    margin-left: 0.75rem;
-    padding: 0.75rem;
+    /* margin-left: 0.75rem; */
     font-weight: bold;
     color : rgb(196, 74, 21);
     border: none;
     border-radius: 20px;
-    background : url("Image/Ratten01.jpg") center center no-repeat fixed;
-    opacity: 0.8;
+    /* background : url("Image/Ratten01.jpg") center center no-repeat fixed; */
+    /* opacity: 0.8; */
+    
+  }
+  nav{
+
+    top: 18%;
+    align-self: flex-end;
+    order:3;
   }
 
   #purchase {
