@@ -1,8 +1,4 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
-  body{
+body{
     padding-left: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: lightgray;
@@ -37,6 +33,21 @@ html {
     font-size: 17px;
     color: lightgoldenrodyellow;
   }
+  .header-container{
+    background: url("/MudraMain/Image/Hanwoven basket.png") top center fixed;
+    position: fixed; 
+    width:100%;
+    height: 15%;
+  }
+
+  .footer-container{
+    background: coral top center fixed;
+    position: fixed; 
+    width:100%;
+    height: 10%;
+  }
+  
+
   
   header > p {
     padding-top: 2rem; 
