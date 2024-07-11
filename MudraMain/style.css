@@ -1,27 +1,44 @@
-body{
-    padding-left: 50px;
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: lightgray;
   }
-  h1 {
+
+  #body-part{
+    top: 20%;
+    bottom:20%;
+    position:absolute;
+
+  }
+
+  h1 h3 {
+    color : rgb(196, 74, 21);
+    font-weight: bold;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
   }
+  
   img {
-    width : 280px;
-    height: 280px;
+    width : 180px;
+    height: 180px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
   .menu{
     margin-left: 0.75rem;
     padding: 0.75rem;
-    color: rgb(91, 8, 8);
+    font-weight: bold;
+    color : rgb(196, 74, 21);
     border: none;
-    border-radius: 10px;
-    background : url(Image/Bamboo_hairClip.jpg) center center no-repeat fixed;
-    opacity: 0.5;
+    border-radius: 20px;
+    background : url("Image/Ratten01.jpg") center center no-repeat fixed;
+    opacity: 0.8;
   }
+
   #purchase {
     font-weight: 150;
     font-size: 25px;
@@ -31,19 +48,29 @@ body{
   #description{
     padding-right: 10cm;
     font-size: 17px;
-    color: lightgoldenrodyellow;
+    color: rgb(242, 91, 15);
   }
+
+  header > p {
+    padding-top: 2rem; 
+    text-align: center;
+    font-family: cursive;
+    font-style: oblique;
+  }
+   
   .header-container{
     background: url("/MudraMain/Image/Hanwoven basket.png") top center fixed;
     position: fixed; 
     width:100%;
-    height: 15%;
+    height: 28%;
   }
 
   .footer-container{
-    background: coral;
+    background-color: coral;
     position: fixed; 
-   
+    width: 100%;
+    top: 90%;
+    bottom:0;
   }
 
   #reachOut{
@@ -63,14 +90,8 @@ body{
     margin-top: 2px;
   }
 
-  header > p {
-    padding-top: 2rem; 
-    text-align: center;
-    font-family: cursive;
-    font-style: oblique;
-  }
-   
   #sub  > p{
+     top: 20%;
      padding-top: 3rem; 
      
     }
